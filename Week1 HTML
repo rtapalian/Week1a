@@ -1,2 +1,36 @@
+<!DOCTYPE html>		
+		<html>
+	
+<head>
+<title>Forms</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
 
+
+
+<body>
+	<header>
+		<h1 class="headertitle">Contact Form</h1>
+		<div class="contentbox">
+			<form name="myform">
+			
+				<label for="int-name">First Name</label><input id="int-name" type="text" name="name"maxlength="60" size="25"/>
+				
+				<br/><br/>
+				<label for="int-lname">Last Name</label><input id="int-lname" type="text" name="name"maxlength="60" size="25"/>
+				<br/><br/>
+				<label for="int-email">Email</label><input id="int-email" type="text" name="email" maxlength="60" size="40"/>
+				<br/><br/>
+			
+				Comments:<br/>
+				<textarea rows="15" cols="38" name="comments"></textarea>
+				<br/><br/>
+				
+				
+				<br/><br/>
+				<input type="submit" value ="Submit"/>
+			</form>
+			</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
 </html>
